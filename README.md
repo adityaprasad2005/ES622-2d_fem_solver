@@ -40,7 +40,7 @@ To accurately capture the steep stress gradients near the void, the hole boundar
 The recovered stress field under 100 MPa of far-field uniaxial tension. Notice the highly localized stress concentration at the apex of the hole, vastly exceeding the infinite-plate theoretical limit ($K_t = 3$) due to finite boundary constraints.
 
 <p align="center">
-  <img src="MATLAB Implementation/grid convergence/mesh_ultra_contour.png" alt="Von Mises Stress Contour" width="700">
+  <img src="MATLAB Implementation/grid convergence/mesh_ultra_stress.png" alt="Von Mises Stress Contour" width="700">
 </p>
 
 ### Grid Convergence Dashboard
