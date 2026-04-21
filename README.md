@@ -33,21 +33,21 @@ This solver bridges the gap between theoretical continuum mechanics and computat
 To accurately capture the steep stress gradients near the void, the hole boundary is heavily refined using a reduced characteristic length ($lc$) in Gmsh. 
 
 <p align="center">
-  <img src="grid convergence/mesh_ultra_mesh.png" alt="Ultra Fine Mesh" width="700">
+  <img src="MATLAB Implementation/grid convergence/mesh_ultra_mesh.png" alt="Ultra Fine Mesh" width="700">
 </p>
 
 ### Von Mises Stress Contour
 The recovered stress field under 100 MPa of far-field uniaxial tension. Notice the highly localized stress concentration at the apex of the hole, vastly exceeding the infinite-plate theoretical limit ($K_t = 3$) due to finite boundary constraints.
 
 <p align="center">
-  <img src="grid convergence/mesh_ultra_contour.png" alt="Von Mises Stress Contour" width="700">
+  <img src="MATLAB Implementation/grid convergence/mesh_ultra_contour.png" alt="Von Mises Stress Contour" width="700">
 </p>
 
 ### Grid Convergence Dashboard
 A comprehensive mathematical validation of the solver. As the element count increases (approaching $h \to 0$), the kinematic displacement and global strain energy converge monotonically, while the localized peak stress asymptotically approaches the true physical limit.
 
 <p align="center">
-  <img src="grid convergence/convergence_dashboard.png" alt="Grid Convergence Dashboard" width="900">
+  <img src="MATLAB Implementation/grid convergence/convergence_dashboard.png" alt="Grid Convergence Dashboard" width="900">
 </p>
 
 ---
